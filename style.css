@@ -1,0 +1,436 @@
+header {
+  position: fixed;
+  z-index: 9999;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+}
+
+.line{
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    font-weight: 700;
+    font-size: 12.8px;
+    position: relative;
+    top: 5px;
+}
+
+.fixed{
+    position: fixed;
+    width: 100%;
+}
+
+.container{
+    width: 100%;
+    padding: 11px;
+    background-color: rgb(243, 98, 1);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    transition: all ease-in-out;
+}
+
+.time-button{
+    background-color: #fff;
+    border: 0;
+    font-weight: 700;
+    border-radius: 2px;
+    padding: 1px 6px;
+}
+
+.time-label{
+    font-size: 0.45rem;
+}
+
+.btns{
+    margin-left: 15px;
+}
+
+.sign{
+    color: #fff;
+}
+
+.discount{
+    height: 30px;
+    background-color: #010101;
+    color: white;
+    font-weight: 800;
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dis2{
+    background-color: #c81f2f;
+    padding: 2px;
+    border-radius: 3px;
+}
+
+/***************************************Header Styling Complete***********************************************/
+
+
+main{
+    margin: 0 20%;
+    padding-top: 100px;
+}
+
+.Woman{
+    border-radius: 50px;
+    margin-top: 1px;
+}
+
+.alt{
+    position: relative;
+    top: -30px;
+    margin-left: 10px;
+}
+
+.alt2{
+    position: relative;
+    bottom: 12px;
+    right: 73px;
+}
+
+.para{
+    line-height: 1.5;
+    font-weight: 300px;
+}
+
+.img1{
+    border-radius: 28px;
+    margin: 30px 20px;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+.sec2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.heading{
+    margin-top: 20px;
+}
+
+.free{
+    
+    border: 1px dotted black;
+    width: 401px;
+    border-radius: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+    padding-bottom: 30px;
+    font-family: "Bebas Neue";
+    margin-bottom: 110px;
+
+}
+
+.gifts{
+    border-radius: 20px;
+}
+
+.line1, .line2{
+    font-weight: 600;
+}
+
+.line2, .line2 span{
+    font-size: 2.2rem;
+    font-weight: 100;
+    font-family: "Bebas Neue";
+    line-height: -10;
+}
+
+.line2 span{
+    color: #f36c21;
+    
+}
+
+.scents{
+    background-color: #009bdf;
+    border: 0;
+    width: 23rem;
+    height: 60px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}
+
+.scents img{
+    color: #fff;
+}
+
+.arrow{
+    position: relative;
+    left: 90px;
+}
+
+.timing{
+    color: #f36c21;
+    font-family: "Bebas Neue";
+}
+
+.free .ends{
+    font-family: "Bebas Neue";
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.bold{
+    color: #009bdf;
+    font-weight: bold;
+}
+
+.small{
+    background-color: #f36c211a;
+    padding: 20px 50px;
+    font-size: 11px;
+    border-radius: 10px;
+}
+
+.first, .second{
+    margin: 10px ;
+}
+
+.third{
+    font-size: x-small;
+    position: relative;
+    top: 20px;
+}
+
+.space{
+    text-decoration: line-through;
+}
+
+.para2{
+    margin-top: 20px;
+    
+}
+
+#video{
+    border-radius: 30px;
+    margin-left: 20px;
+}
+
+video {
+    display: inline-block
+}
+
+.dis-btn{
+    background-color: #009bdf;
+    height: 60px;
+    width: 500px;
+    border: 0;
+    color: white;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: medium;
+    position: relative;
+    top: 8px;
+    
+}
+
+.dis-sec{
+    background-color: white;
+    height: 100px;
+    box-shadow: 0 -4px 4px #0000000f;
+    z-index: 999;
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+}
+
+.dis-sec-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.dis-arr{
+    position: relative;
+    top: 30px;
+    right: 30px;
+    color: white;
+}
+
+.dis-sec-copy{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 8px;
+    font-size: small;
+    margin-top: 5px;
+    font-weight: 600;
+}
+
+.FS{
+    padding-right: 100px;
+}
+
+.MBG{
+    padding-left: 80px;
+}
+
+.heading1{
+    display: none;
+}
+
+.vid{
+    margin-left: 15px;
+}
+
+@media (max-width: 1300px) {
+    main{
+        margin: 0 15%;
+    }
+
+    .heading1{
+        display: none;
+    }
+
+    .heading2{
+        display: inline-block;
+    }
+}
+
+@media (max-width: 855px) {
+    main{
+        margin: 0 5%;
+    }
+    .heading1{
+    display: none;
+    }
+
+}
+
+@media (max-width:550px) {
+    main{
+        margin: 0 0 0 5%;
+
+    }
+
+    .sec2{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    main section .head{
+        font-size: 2rem;
+    }
+
+    .heading1{
+        display: block;
+    }
+
+    .free{
+        margin: 0;
+        margin-bottom: 110px;
+    }
+
+    .heading2{
+        display: none;
+    }
+
+    .img1{
+        height: 380px;
+        margin-left: 5px;
+    }
+
+    #video{
+        position: relative;
+        right: 15px;
+        width: 350px;
+    }
+
+    .dis-sec-copy{
+        display: flex;
+        justify-content: center;
+    }
+
+    .MBG{
+        padding: 0%;
+    }
+
+    .FS{
+        padding: 0%;
+        padding-right: 25px;
+    }
+}
+
+@media (max-width: 415px) {
+    .img1{
+        height: 350px;
+    }
+
+    .dis-sec-btn{
+        margin: 0 0 0 10px;
+    }
+
+    .free{
+        margin: 5px 0 110px 5px;
+        width: 350px;
+    }
+
+    .scents{
+        width: 20rem;
+    }
+
+    .gifts{
+        width: 349px;
+    }    
+}
+
+@media (max-width: 376px) {
+
+        .container{
+            margin: 0;
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+
+        .line{
+            margin: 0;
+            padding: 0;
+        }
+
+        .time-button{
+            margin: 0;
+            padding: 1;
+        }
+
+        .btns{
+            margin: 0 0 0 5px;
+            padding: 0;
+        }
+
+        .img1{
+            height: 300px;
+        }
+
+        .free{
+            width: 320px;
+        }
+
+        .scents{
+        width: 18rem;
+        }
+
+        .gifts{
+        width: 318px;
+        }
+}
