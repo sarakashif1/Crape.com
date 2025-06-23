@@ -476,4 +476,8 @@ video {
         .container{
           padding:0;
         }
+
+        .btns{
+          margin-left:0;
+        }
 }
