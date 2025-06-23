@@ -410,7 +410,7 @@ video {
 
   .arrow{
     position: relative;
-    right: 15px
+    left: 70px
 }
 
 @media (max-width: 376px) {
