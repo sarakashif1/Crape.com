@@ -467,4 +467,9 @@ video {
         #video{
           width: 300px;
         }
+
+        .line{
+          margin-left:0;
+          margin-right:0;
+        }
 }
