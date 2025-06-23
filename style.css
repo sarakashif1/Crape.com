@@ -338,7 +338,6 @@ video {
 
     .heading1{
         display: block;
-              font-size: 1.6rem
     }
 
     .free{
@@ -397,7 +396,7 @@ video {
     .gifts{
         width: 349px;
     }
-  .h1{
+  h1{
     font-size: 1.5rem;
   }
 
