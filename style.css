@@ -80,6 +80,7 @@ html, body {
 
 main{
     max-width: 900px;
+    place-self: center;
     padding-top: 100px;
 }
 
