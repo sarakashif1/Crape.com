@@ -417,8 +417,7 @@ video {
 
         .container{
             margin: 0;
-            padding-left: 5px;
-            padding-right: 5px;
+            padding:0;
         }
 
         main{
@@ -471,10 +470,6 @@ video {
         .line{
           margin-left:0;
           margin-right:0;
-        }
-
-        .container{
-          padding:0;
         }
 
         .btns{
