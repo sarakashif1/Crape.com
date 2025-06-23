@@ -395,7 +395,9 @@ video {
 
     .gifts{
         width: 349px;
-    }    
+    }
+  .h1{
+    font-size: 1.5rem;
 }
 
 @media (max-width: 376px) {
