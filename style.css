@@ -322,7 +322,8 @@ video {
 @media (max-width:550px) {
     main{
         margin: 0;
-        max-width: 200px;
+        place-self: center;
+        max-width: 340px;
 
     }
 
