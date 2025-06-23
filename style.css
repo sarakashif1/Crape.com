@@ -421,6 +421,9 @@ video {
             padding-right: 5px;
         }
 
+        main{
+          max-width: 330px;
+
         .line{
             margin: 0;
             padding: 0;
@@ -432,7 +435,7 @@ video {
         }
 
         .btns{
-            margin: 0 0 0 5px;
+            margin: 0;
             padding: 0;
         }
 
@@ -442,6 +445,7 @@ video {
 
         .free{
             width: 320px;
+            margin: 0;
         }
 
         .scents{
