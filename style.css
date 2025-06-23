@@ -296,9 +296,9 @@ video {
 }
 
 @media (max-width: 1300px) {
-    main{
+/*     main{
         margin: 0 15%;
-    }
+    } */
 
     .heading1{
         display: none;
@@ -310,9 +310,9 @@ video {
 }
 
 @media (max-width: 855px) {
-    main{
+/*     main{
         margin: 0 5%;
-    }
+    } */
     .heading1{
     display: none;
     }
