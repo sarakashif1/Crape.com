@@ -449,10 +449,14 @@ video {
         }
 
         .scents{
-        width: 18rem;
+            width: 18rem;
         }
 
         .gifts{
-        width: 318px;
+            width: 318px;
+        }
+
+        .small{
+            padding: 20px 30px;
         }
 }
