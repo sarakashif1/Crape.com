@@ -414,65 +414,60 @@ video {
 }
 
 @media (max-width: 376px) {
+  .container {
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
 
-        .container{
-            margin: 0;
-            padding-left: 0;
-            padding-right: 0;
-        }
+  main {
+    max-width: 330px;
+  }
 
-        main{
-          max-width: 330px;
+  .line {
+    margin: 0;
+    padding: 0;
+    font-size: 11px;
+  }
 
-        .line{
-            margin: 0;
-            padding: 0;
-        }
+  .time-button {
+    margin: 0;
+    padding: 1px; /* Padding value must include a unit */
+  }
 
-        .time-button{
-            margin: 0;
-            padding: 1;
-        }
+  .btns {
+    margin: 0;
+    padding: 0;
+    margin-left: 0;
+  }
 
-        .btns{
-            margin: 0;
-            padding: 0;
-        }
+  .img1 {
+    height: 300px;
+  }
 
-        .img1{
-            height: 300px;
-        }
+  .free {
+    width: 320px;
+  }
 
-        .free{
-            width: 320px;
-        }
-          
-        .arrow {
-        position: relative;
-        left: 60px;
-        }
+  .arrow {
+    position: relative;
+    left: 60px;
+  }
 
-        .scents{
-            width: 18rem;
-        }
+  .scents {
+    width: 18rem;
+  }
 
-        .gifts{
-            width: 318px;
-        }
+  .gifts {
+    width: 318px;
+  }
 
-        .small{
-            padding: 20px 30px;
-        }
+  .small {
+    padding: 20px 30px;
+  }
 
-        #video{
-          width: 300px;
-        }
-
-        .line{
-          font-size: 11px;
-        }
-
-        .btns{
-          margin-left:0;
-        }
+  #video {
+    width: 300px;
+  }
 }
+
