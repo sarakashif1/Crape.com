@@ -79,7 +79,7 @@ html, body {
 
 
 main{
-    max-width: 900px;
+    max-width: 800px;
     place-self: center;
     padding-top: 100px;
 }
@@ -321,7 +321,8 @@ video {
 
 @media (max-width:550px) {
     main{
-        margin: 0 0 0 0;
+        margin: 0;
+        max-width: 200px;
 
     }
 
