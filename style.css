@@ -428,6 +428,7 @@ video {
     margin: 0;
     padding: 0;
     font-size: 11px;
+    margin-right: 5px;
   }
 
   .btns {
