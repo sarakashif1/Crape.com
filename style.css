@@ -472,4 +472,8 @@ video {
           margin-left:0;
           margin-right:0;
         }
+
+        .container{
+          padding:0;
+        }
 }
