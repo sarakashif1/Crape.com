@@ -430,11 +430,6 @@ video {
     font-size: 11px;
   }
 
-  .time-button {
-    margin: 0;
-    padding: 1px; /* Padding value must include a unit */
-  }
-
   .btns {
     margin: 0;
     padding: 0;
