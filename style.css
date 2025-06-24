@@ -243,6 +243,7 @@ video {
     font-size: medium;
     position: relative;
     top: 8px;
+    cursor: pointer;
     
 }
 
